@@ -29,8 +29,7 @@ namespace SampleWebAPIApplication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            //services.AddMvc();
-
+            
             ConfigureSwagger(services);
         }
         public void ConfigureSwagger(IServiceCollection services)
