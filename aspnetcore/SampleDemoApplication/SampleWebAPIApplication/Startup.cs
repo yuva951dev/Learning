@@ -55,7 +55,7 @@ namespace SampleWebAPIApplication
                     }
                 });
 
-                // Set the comments path for the Swagger JSON and UI.
+                // Set the comments path for the Swagger JSON and UI. -- Configure the xml comments for swagger
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
